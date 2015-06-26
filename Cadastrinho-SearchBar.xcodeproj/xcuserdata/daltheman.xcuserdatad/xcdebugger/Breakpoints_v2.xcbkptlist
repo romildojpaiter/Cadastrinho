@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cadastrinho-SearchBar/AddViewController.swift"
+            timestampString = "456983833.591479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AddViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cadastrinho_SearchBar.AddViewController.nameTextField.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "Cadastrinho-SearchBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daltheman/Documents/404/404%20-%20SQLite/Cadastrinho-SearchBar/Cadastrinho-SearchBar/AddViewController.swift"
+                  timestampString = "456983833.596031"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cadastrinho_SearchBar.AddViewController.nameTextField.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "Cadastrinho-SearchBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daltheman/Documents/404/404%20-%20SQLite/Cadastrinho-SearchBar/Cadastrinho-SearchBar/AddViewController.swift"
+                  timestampString = "456983833.596277"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cadastrinho_SearchBar.AddViewController.nameTextField.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "Cadastrinho-SearchBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daltheman/Documents/404/404%20-%20SQLite/Cadastrinho-SearchBar/Cadastrinho-SearchBar/AddViewController.swift"
+                  timestampString = "456983833.596447"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cadastrinho_SearchBar.AddViewController.init (Cadastrinho_SearchBar.AddViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Cadastrinho_SearchBar.AddViewController"
+                  moduleName = "Cadastrinho-SearchBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daltheman/Documents/404/404%20-%20SQLite/Cadastrinho-SearchBar/Cadastrinho-SearchBar/AddViewController.swift"
+                  timestampString = "456983833.596618"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "55">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cadastrinho_SearchBar.AddViewController.init (Cadastrinho_SearchBar.AddViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Cadastrinho_SearchBar.AddViewController"
+                  moduleName = "Cadastrinho-SearchBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daltheman/Documents/404/404%20-%20SQLite/Cadastrinho-SearchBar/Cadastrinho-SearchBar/AddViewController.swift"
+                  timestampString = "456983833.596784"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

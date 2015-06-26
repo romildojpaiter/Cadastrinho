@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0BD5E101B3C917000B971B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD5E0F1B3C917000B971B0 /* AppDelegate.swift */; };
+		D0BD5E121B3C917000B971B0 /* ManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD5E111B3C917000B971B0 /* ManageViewController.swift */; };
+		D0BD5E151B3C917000B971B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD5E131B3C917000B971B0 /* Main.storyboard */; };
+		D0BD5E171B3C917000B971B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BD5E161B3C917000B971B0 /* Assets.xcassets */; };
+		D0BD5E1A1B3C917000B971B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD5E181B3C917000B971B0 /* LaunchScreen.storyboard */; };
+		D0BD5E251B3C917100B971B0 /* Cadastrinho_SearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD5E241B3C917100B971B0 /* Cadastrinho_SearchBarTests.swift */; };
+		D0BD5E301B3C917100B971B0 /* Cadastrinho_SearchBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD5E2F1B3C917100B971B0 /* Cadastrinho_SearchBarUITests.swift */; };
+		D0BD5E3F1B3C929200B971B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BD5E3E1B3C929200B971B0 /* libsqlite3.dylib */; };
+		D0BD5E421B3C930F00B971B0 /* QSQlite3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD5E411B3C930F00B971B0 /* QSQlite3.swift */; };
+		D0BD5E441B3C97C200B971B0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD5E431B3C97C200B971B0 /* AddViewController.swift */; };
+		D0BD5E461B3CFF1400B971B0 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD5E451B3CFF1400B971B0 /* UpdateViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0BD5E211B3C917100B971B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BD5E041B3C917000B971B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BD5E0B1B3C917000B971B0;
+			remoteInfo = "Cadastrinho-SearchBar";
+		};
+		D0BD5E2C1B3C917100B971B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BD5E041B3C917000B971B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BD5E0B1B3C917000B971B0;
+			remoteInfo = "Cadastrinho-SearchBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0BD5E0C1B3C917000B971B0 /* Cadastrinho-SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cadastrinho-SearchBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BD5E0F1B3C917000B971B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0BD5E111B3C917000B971B0 /* ManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageViewController.swift; sourceTree = "<group>"; };
+		D0BD5E141B3C917000B971B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0BD5E161B3C917000B971B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BD5E191B3C917000B971B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BD5E1B1B3C917000B971B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BD5E201B3C917100B971B0 /* Cadastrinho-SearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cadastrinho-SearchBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BD5E241B3C917100B971B0 /* Cadastrinho_SearchBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastrinho_SearchBarTests.swift; sourceTree = "<group>"; };
+		D0BD5E261B3C917100B971B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BD5E2B1B3C917100B971B0 /* Cadastrinho-SearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cadastrinho-SearchBarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BD5E2F1B3C917100B971B0 /* Cadastrinho_SearchBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastrinho_SearchBarUITests.swift; sourceTree = "<group>"; };
+		D0BD5E311B3C917100B971B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BD5E3E1B3C929200B971B0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = /usr/lib/libsqlite3.dylib; sourceTree = "<absolute>"; };
+		D0BD5E401B3C92A600B971B0 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		D0BD5E411B3C930F00B971B0 /* QSQlite3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSQlite3.swift; sourceTree = "<group>"; };
+		D0BD5E431B3C97C200B971B0 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		D0BD5E451B3CFF1400B971B0 /* UpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BD5E091B3C917000B971B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BD5E3F1B3C929200B971B0 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BD5E1D1B3C917100B971B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BD5E281B3C917100B971B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0BD5E031B3C917000B971B0 = {
+			isa = PBXGroup;
+			children = (
+				D0BD5E0E1B3C917000B971B0 /* Cadastrinho-SearchBar */,
+				D0BD5E231B3C917100B971B0 /* Cadastrinho-SearchBarTests */,
+				D0BD5E2E1B3C917100B971B0 /* Cadastrinho-SearchBarUITests */,
+				D0BD5E0D1B3C917000B971B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BD5E0D1B3C917000B971B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD5E0C1B3C917000B971B0 /* Cadastrinho-SearchBar.app */,
+				D0BD5E201B3C917100B971B0 /* Cadastrinho-SearchBarTests.xctest */,
+				D0BD5E2B1B3C917100B971B0 /* Cadastrinho-SearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BD5E0E1B3C917000B971B0 /* Cadastrinho-SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD5E0F1B3C917000B971B0 /* AppDelegate.swift */,
+				D0BD5E111B3C917000B971B0 /* ManageViewController.swift */,
+				D0BD5E451B3CFF1400B971B0 /* UpdateViewController.swift */,
+				D0BD5E431B3C97C200B971B0 /* AddViewController.swift */,
+				D0BD5E411B3C930F00B971B0 /* QSQlite3.swift */,
+				D0BD5E131B3C917000B971B0 /* Main.storyboard */,
+				D0BD5E3D1B3C924C00B971B0 /* Supporting Files */,
+			);
+			path = "Cadastrinho-SearchBar";
+			sourceTree = "<group>";
+		};
+		D0BD5E231B3C917100B971B0 /* Cadastrinho-SearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD5E241B3C917100B971B0 /* Cadastrinho_SearchBarTests.swift */,
+				D0BD5E261B3C917100B971B0 /* Info.plist */,
+			);
+			path = "Cadastrinho-SearchBarTests";
+			sourceTree = "<group>";
+		};
+		D0BD5E2E1B3C917100B971B0 /* Cadastrinho-SearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD5E2F1B3C917100B971B0 /* Cadastrinho_SearchBarUITests.swift */,
+				D0BD5E311B3C917100B971B0 /* Info.plist */,
+			);
+			path = "Cadastrinho-SearchBarUITests";
+			sourceTree = "<group>";
+		};
+		D0BD5E3D1B3C924C00B971B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD5E3E1B3C929200B971B0 /* libsqlite3.dylib */,
+				D0BD5E161B3C917000B971B0 /* Assets.xcassets */,
+				D0BD5E181B3C917000B971B0 /* LaunchScreen.storyboard */,
+				D0BD5E1B1B3C917000B971B0 /* Info.plist */,
+				D0BD5E401B3C92A600B971B0 /* Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BD5E0B1B3C917000B971B0 /* Cadastrinho-SearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BD5E341B3C917100B971B0 /* Build configuration list for PBXNativeTarget "Cadastrinho-SearchBar" */;
+			buildPhases = (
+				D0BD5E081B3C917000B971B0 /* Sources */,
+				D0BD5E091B3C917000B971B0 /* Frameworks */,
+				D0BD5E0A1B3C917000B971B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cadastrinho-SearchBar";
+			productName = "Cadastrinho-SearchBar";
+			productReference = D0BD5E0C1B3C917000B971B0 /* Cadastrinho-SearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0BD5E1F1B3C917100B971B0 /* Cadastrinho-SearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BD5E371B3C917100B971B0 /* Build configuration list for PBXNativeTarget "Cadastrinho-SearchBarTests" */;
+			buildPhases = (
+				D0BD5E1C1B3C917100B971B0 /* Sources */,
+				D0BD5E1D1B3C917100B971B0 /* Frameworks */,
+				D0BD5E1E1B3C917100B971B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BD5E221B3C917100B971B0 /* PBXTargetDependency */,
+			);
+			name = "Cadastrinho-SearchBarTests";
+			productName = "Cadastrinho-SearchBarTests";
+			productReference = D0BD5E201B3C917100B971B0 /* Cadastrinho-SearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0BD5E2A1B3C917100B971B0 /* Cadastrinho-SearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BD5E3A1B3C917100B971B0 /* Build configuration list for PBXNativeTarget "Cadastrinho-SearchBarUITests" */;
+			buildPhases = (
+				D0BD5E271B3C917100B971B0 /* Sources */,
+				D0BD5E281B3C917100B971B0 /* Frameworks */,
+				D0BD5E291B3C917100B971B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BD5E2D1B3C917100B971B0 /* PBXTargetDependency */,
+			);
+			name = "Cadastrinho-SearchBarUITests";
+			productName = "Cadastrinho-SearchBarUITests";
+			productReference = D0BD5E2B1B3C917100B971B0 /* Cadastrinho-SearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BD5E041B3C917000B971B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Quaddro - Danilo Altheman";
+				TargetAttributes = {
+					D0BD5E0B1B3C917000B971B0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D0BD5E1F1B3C917100B971B0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D0BD5E0B1B3C917000B971B0;
+					};
+					D0BD5E2A1B3C917100B971B0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D0BD5E0B1B3C917000B971B0;
+					};
+				};
+			};
+			buildConfigurationList = D0BD5E071B3C917000B971B0 /* Build configuration list for PBXProject "Cadastrinho-SearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BD5E031B3C917000B971B0;
+			productRefGroup = D0BD5E0D1B3C917000B971B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BD5E0B1B3C917000B971B0 /* Cadastrinho-SearchBar */,
+				D0BD5E1F1B3C917100B971B0 /* Cadastrinho-SearchBarTests */,
+				D0BD5E2A1B3C917100B971B0 /* Cadastrinho-SearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BD5E0A1B3C917000B971B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BD5E1A1B3C917000B971B0 /* LaunchScreen.storyboard in Resources */,
+				D0BD5E171B3C917000B971B0 /* Assets.xcassets in Resources */,
+				D0BD5E151B3C917000B971B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BD5E1E1B3C917100B971B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BD5E291B3C917100B971B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BD5E081B3C917000B971B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BD5E421B3C930F00B971B0 /* QSQlite3.swift in Sources */,
+				D0BD5E121B3C917000B971B0 /* ManageViewController.swift in Sources */,
+				D0BD5E441B3C97C200B971B0 /* AddViewController.swift in Sources */,
+				D0BD5E101B3C917000B971B0 /* AppDelegate.swift in Sources */,
+				D0BD5E461B3CFF1400B971B0 /* UpdateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BD5E1C1B3C917100B971B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BD5E251B3C917100B971B0 /* Cadastrinho_SearchBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BD5E271B3C917100B971B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BD5E301B3C917100B971B0 /* Cadastrinho_SearchBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0BD5E221B3C917100B971B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BD5E0B1B3C917000B971B0 /* Cadastrinho-SearchBar */;
+			targetProxy = D0BD5E211B3C917100B971B0 /* PBXContainerItemProxy */;
+		};
+		D0BD5E2D1B3C917100B971B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BD5E0B1B3C917000B971B0 /* Cadastrinho-SearchBar */;
+			targetProxy = D0BD5E2C1B3C917100B971B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0BD5E131B3C917000B971B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BD5E141B3C917000B971B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0BD5E181B3C917000B971B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BD5E191B3C917000B971B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0BD5E321B3C917100B971B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0BD5E331B3C917100B971B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BD5E351B3C917100B971B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cadastrinho-SearchBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.uide.Cadastrinho-SearchBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/daltheman/Documents/404/404 - SQLite/Cadastrinho-SearchBar/Cadastrinho-SearchBar/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		D0BD5E361B3C917100B971B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cadastrinho-SearchBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.uide.Cadastrinho-SearchBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/daltheman/Documents/404/404 - SQLite/Cadastrinho-SearchBar/Cadastrinho-SearchBar/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D0BD5E381B3C917100B971B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cadastrinho-SearchBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.uide.Cadastrinho-SearchBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cadastrinho-SearchBar.app/Cadastrinho-SearchBar";
+			};
+			name = Debug;
+		};
+		D0BD5E391B3C917100B971B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cadastrinho-SearchBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.uide.Cadastrinho-SearchBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cadastrinho-SearchBar.app/Cadastrinho-SearchBar";
+			};
+			name = Release;
+		};
+		D0BD5E3B1B3C917100B971B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cadastrinho-SearchBarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.uide.Cadastrinho-SearchBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cadastrinho-SearchBar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D0BD5E3C1B3C917100B971B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cadastrinho-SearchBarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.uide.Cadastrinho-SearchBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cadastrinho-SearchBar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BD5E071B3C917000B971B0 /* Build configuration list for PBXProject "Cadastrinho-SearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BD5E321B3C917100B971B0 /* Debug */,
+				D0BD5E331B3C917100B971B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BD5E341B3C917100B971B0 /* Build configuration list for PBXNativeTarget "Cadastrinho-SearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BD5E351B3C917100B971B0 /* Debug */,
+				D0BD5E361B3C917100B971B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BD5E371B3C917100B971B0 /* Build configuration list for PBXNativeTarget "Cadastrinho-SearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BD5E381B3C917100B971B0 /* Debug */,
+				D0BD5E391B3C917100B971B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BD5E3A1B3C917100B971B0 /* Build configuration list for PBXNativeTarget "Cadastrinho-SearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BD5E3B1B3C917100B971B0 /* Debug */,
+				D0BD5E3C1B3C917100B971B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0BD5E041B3C917000B971B0 /* Project object */;
+}
